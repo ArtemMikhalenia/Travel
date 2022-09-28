@@ -240,7 +240,7 @@ if (menuLinks.length > 0) {
 //параллакс эффект
 /*$(window).scroll(function (event) {
 	var s = 0 - $(this).scrollTop() / 3;
-	$('.fullscreen__video').css('transform', 'translate3d(0, ' + s + 'px, 0)');
+	$('.mainblock__background').css('transform', 'translate3d(0, ' + s + 'px, 0)');
 });*/
 
 //swiper
@@ -252,7 +252,7 @@ const swiper = new Swiper('.swiper', {
 		modifier: 1,
 	},
 	autoplay: {
-		delay: 5000,
+		delay: 3000,
 		pauseOnMouseEnter: true,
 	},
 	centeredSlides: true,
