@@ -15,31 +15,30 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="container">
-				<div class="header__row">
-					<div class="header__logo">
-						<a href="#">Travel</a>
-					</div>
-					<div class="header__menu menu">
-						<div class="menu__icon icon-menu">
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li><a href="#" class="menu__link"><span>Home</span></a></li>
-								<li><a href="#" data-goto=".section__about" class="menu__link"><span>About</span></a></li>
-								<li><a href="#" data-goto=".section__discover" class="menu__link"><span>Discover</span></a></li>
-								<li><a href="#" data-goto=".section__explore" class="menu__link"><span>Place</span></a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
+<header class="header">
+	<div class="container">
+		<div class="header__row">
+			<div class="header__logo">
+				<a href="#">Travel</a>
 			</div>
-		</header>
-		<section class="mainblock">
+			<div class="header__menu menu">
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li><a href="#" class="menu__link"><span>Home</span></a></li>
+						<li><a href="#" data-goto=".section__about" class="menu__link"><span>About</span></a></li>
+						<li><a href="#" data-goto=".section__discover" class="menu__link"><span>Discover</span></a></li>
+						<li><a href="#" data-goto=".section__explore" class="menu__link"><span>Place</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>		<section class="mainblock">
 			<div class="mainblock__container">
 				<div class="mainblock__body">
 					<div class="mainblock__background ibg">
@@ -173,52 +172,54 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer">
-			<div class='container'>
-				<div class="footer__row">
-					<p>©2022 Travel · By Rauliqbal</p>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<div class="popup">
-		<div class="popup-table table">
-			<div class="cell">
-				<div class="popup-content">
-					<div class="popup-close"></div>
-					<div class="popup__title"></div>
-					<div class="popup__txt"></div>
-					<form action="#" class="popup-form form">
-						<div class="form-input">
-							<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
-						</div>
-						<div class="form-input">
-							<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
-						</div>
-						<div class="form-input">
-							<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
-						</div>
-						<div class="form-button">
-							<button type="submit" class="form__btn btn fw"></button>
-						</div>
-					</form>
-				</div>
-			</div>
+		<video class="fullscreen__video" autoplay muted loop preload="auto">
+			<source type="video/webm" src="img/background.webm">
+			<source type="video/mp4" src="img/background.mp4">
+		</video>
+<footer class="footer">
+	<div class='container'>
+		<div class="footer__row">
+			<p>©2022 Travel · By Rauliqbal</p>
 		</div>
 	</div>
-	<div class="popup popup-video">
-		<div class="popup-table table">
-			<div class="cell">
+</footer>	</div>
+<div class="popup">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-content">
 				<div class="popup-close"></div>
-				<div class="popup-video__value video"></div>
+				<div class="popup__title"></div>
+				<div class="popup__txt"></div>
+				<form action="#" class="popup-form form">
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
+					</div>
+					<div class="form-button">
+						<button type="submit" class="form__btn btn fw"></button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
-	<script src="js/vendors.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/custom.js"></script>
+</div>
+<div class="popup popup-video">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-close"></div>
+			<div class="popup-video__value video"></div>
+		</div>
+	</div>
+</div><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+<script src="js/vendors.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js" ></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
